@@ -1,0 +1,35 @@
+import example.*
+
+describe "Grupo de test para habitantes" {
+
+  test "Facu tiene 100 de poder" {
+   const facu = new Habitantes(valentia = 25,inteligencia = 75)
+    assert.equals(100,facu.poder())
+  }
+test "Santi tiene 100 de poder" {
+  const santi = new Habitantes(valentia = 50,inteligencia = 50)
+  assert.equals(100,santi.poder())
+}
+}
+describe "Planeta tierra" {
+  const facu = new Habitantes(valentia = 25,inteligencia = 75)
+  const santi = new Habitantes(valentia = 50,inteligencia = 50)
+  test "Habitantes planeta tierra" {
+  const planetaTierra = new Planeta(habitantes = [facu,santi])
+  assert.equals(200, planetaTierra.poder())
+  }
+}
+describe "Soldados" {
+  const pistola5mm = new Arma(potencia = 20, desgastado = false)
+  const escudo = new Arma(potencia = 10, desgastado = true)
+  const soldado1 = new Soldados(valentia = 100, inteligencia = 50, equipamientos = [pistola5mm,escudo])
+  test "Soldado 1" {
+  assert.equals(170, soldado1.poder())
+  }
+}
+describe "Maestros" {
+  const jedi1 = new Jedi(suceso = 0, midiclorianos = 1000, energiaSable = 100, tiempoEnLado = 5, potenciaSable = 500, inteligencia = 50, valentia = 100) 
+  test "Jedi" {
+  assert.equals(651, jedi1.poder())  
+  }
+}
