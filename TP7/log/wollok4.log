@@ -21,3 +21,15 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":144,"timestamp":"2024-07-11T01:10:23.227Z"}
 {"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":234,"timestamp":"2024-07-11T01:10:23.471Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":116,"timestamp":"2024-07-11T01:10:23.588Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":280,"timestamp":"2024-07-11T15:43:21.318Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Romina%20Lence/Desktop/git/TP7/TP7","timestamp":"2024-07-11T15:43:21.325Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":165,"timestamp":"2024-07-11T15:43:21.492Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":129,"timestamp":"2024-07-11T15:43:21.633Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":253,"timestamp":"2024-07-11T15:43:21.886Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":163,"timestamp":"2024-07-11T15:43:22.051Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":180,"timestamp":"2024-07-11T15:43:22.252Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":185,"timestamp":"2024-07-11T15:43:22.437Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":128,"timestamp":"2024-07-11T15:43:22.566Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":190,"timestamp":"2024-07-11T15:43:48.290Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":265,"timestamp":"2024-07-11T15:43:48.559Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":130,"timestamp":"2024-07-11T15:43:48.688Z"}
